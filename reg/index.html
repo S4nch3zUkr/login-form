@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+    <title>Login Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="login-box">
+    <form action="#">
+        <h1>Register</h1>
+        <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" name="username" value="" required>
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" name="email" value="" required>
+        </div>
+
+
+
+        <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" name="password" value="" required>
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Repeat password" name="repeat_password" value="" required>
+        </div>
+
+
+        <input class="btn" type="submit" name="button" value="Sign Up">
+
+    </form>
+    <form action="../index.html" class="sign-in">
+        <h2>Already have an account?</h2>
+        <input class="btn__sign-in" type="submit" name="sign-in" value="Sign In">
+    </form>
+    </div>
+</body>
+</html>
